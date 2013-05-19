@@ -7,11 +7,11 @@
 		},
 
 		render: function() {
-            var template = _.template( $("#template-display-text").html(), {
-		    message: this.model.get('theText')
-} );
+            		var template = _.template( $("#template-display-text").html(), {
+		    		message: this.model.get('theText')
+			} );
 
-            this.$el.html(template);
+            		this.$el.html(template);
 		}
 	});
 })(EX, $)
